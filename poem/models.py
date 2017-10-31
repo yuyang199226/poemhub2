@@ -44,9 +44,9 @@ class Tags(models.Model):
         return self.title
 
 class Profile(models.Model):
-    '''用户表，
-    怎么利用django扩展
-    未完'''
+    '''
+    one-to-one link User model
+    '''
     user = models.OneToOneField(User,on_delete=models.CASCADE)
     nickname = models.CharField(verbose_name='昵称',max_length=32)
     love_poem = models.ManyToManyField(to='Poem',through='PoemUser')
