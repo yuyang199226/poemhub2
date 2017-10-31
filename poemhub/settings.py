@@ -89,7 +89,7 @@ DATABASES = {
         'HOST':'',
         'PORT':'3306',
         'USER':'root',
-        'PASSWORD':'123',
+        'PASSWORD':'',
     }
 }
 
@@ -153,7 +153,7 @@ STATIC_URL = '/static/'
 #   ###################### 打印sql语句结束 ####################
 
 #  配置静态文件开始 ######################
-# STATICFILES_DIRS=[
-#     os.path.join(BASE_DIR,'static'),
-#
-# ]
+STATICFILES_DIRS=[
+    os.path.join(BASE_DIR,'static'),
+
+]

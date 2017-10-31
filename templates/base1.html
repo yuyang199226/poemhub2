@@ -8,7 +8,11 @@
     <script src={% static "/js/jquery-1.12.4.js" %}></script>
     <script src={% static "/plugins/bootstrap/js/bootstrap.js" %}></script>
     <title>用户登录</title>
-
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
   </head>
   <body>
 
@@ -22,7 +26,7 @@
         <div class="collapse navbar-collapse" id="nav">
           <ul class="nav navbar-nav navbar-right">
 
-                <li><a href="#" class="button" ><button class='btn btn-default navbar-btn'>注 册</button></a></li>
+                <li><a href="/signup/" class="button" ><button class='btn btn-default navbar-btn'>注 册</button></a></li>
                 <li><a href="#" class="button" ><button class='btn btn-success navbar-btn'>登 录</button></a></li>
 
           </ul>
