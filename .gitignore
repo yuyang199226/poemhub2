@@ -99,4 +99,7 @@ venv.bak/
 .idea/vcs.xml
 
 *.pyc
+poem/_pycache_/
+poemhub/_pycache_/
+.idea/
 
