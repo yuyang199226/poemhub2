@@ -91,3 +91,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#User-specific stuff
+.idea/workspace.xml
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/vcs.xml
+
+*.pyc
+
