@@ -16,8 +16,9 @@ def log_in(request):
         #与数据库比对，判断用户名和密码输入是否正确
         user_obj = authenticate(request,username=username,password=password)
         #加入到session 中
-        login(request,user_obj)
+
         if user_obj:
+            login(request, user_obj)
             return redirect('/home')
         else:
             context={'message':'用户名或者密码错误','loginform':loginform}
