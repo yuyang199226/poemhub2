@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from poem import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^login/', views.log_in),
+    url(r'^signup/', views.signup),
+    url(r'^logout/', views.log_out),
+    url(r'^home/', views.home),
 ]

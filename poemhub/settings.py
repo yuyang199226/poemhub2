@@ -130,3 +130,30 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#   ###################### 打印sql语句开始 ####################
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'console':{
+#             'level':'DEBUG',
+#             'class':'logging.StreamHandler',
+#         },
+#     },
+#     'loggers': {
+#         'django.db.backends': {
+#             'handlers': ['console'],
+#             'propagate': True,
+#             'level':'DEBUG',
+#         },
+#     }
+# }
+
+#   ###################### 打印sql语句结束 ####################
+
+#  配置静态文件开始 ######################
+# STATICFILES_DIRS=[
+#     os.path.join(BASE_DIR,'static'),
+#
+# ]

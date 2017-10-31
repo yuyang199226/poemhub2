@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={% static "/plugins/bootstrap/css/bootstrap.min.css" %}>
+    <link rel="stylesheet" href={% static "/plugins/bootstrap/css/bootstrap-theme.css" %}>
+    <script src={% static "/js/jquery-1.12.4.js" %}></script>
+    <script src={% static "/plugins/bootstrap/js/bootstrap.js" %}></script>
+    <title>用户登录</title>
+
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <span class="glyphicon glyphicon-tree-deciduous navbar-brand" aria-hidden="true"></span>
+          <a class="navbar-brand" href="#">古诗文大全</a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="#" class="button" ><button class='btn btn-default navbar-btn'>注 册</button></a></li>
+                <li><a href="#" class="button" ><button class='btn btn-success navbar-btn'>登 录</button></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container-fluid">
+  {% block body %}
+      主体区
+    {% endblock %}
+</div>
+
+
+
+
+
+
+
+  </body>
+</html>
