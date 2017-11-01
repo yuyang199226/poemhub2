@@ -15,11 +15,13 @@ def log_in(request):
         loginform = forms.LoginForm(request.POST)
         username = request.POST.get('username')
         password = request.POST.get('password')
+        on = request.POST.get('remember')
         #与数据库比对，判断用户名和密码输入是否正确
         user_obj = authenticate(request,username=username,password=password)
         #加入到session 中
         if user_obj:
-            login(request, user_obj)
+            if on:
+                login(request, user_obj)
             return redirect('/home')
         else:
             context={'message':'用户名或者密码错误','loginform':loginform}
@@ -49,7 +51,8 @@ def signup(request):
 
 def log_out(request):
     '''注销'''
-    return HttpResponse('注销')
+    logout(request)
+    return redirect('/home/')
 
 def changepwd(request):
     '''修改密码'''
