@@ -1,6 +1,7 @@
 from django.shortcuts import render,redirect,HttpResponse
 from django.contrib.auth import authenticate,login,logout
 from . import forms
+from django.contrib.auth.models import User
 import copy
 
 
@@ -17,8 +18,8 @@ def log_in(request):
         #与数据库比对，判断用户名和密码输入是否正确
         user_obj = authenticate(request,username=username,password=password)
         #加入到session 中
-        login(request,user_obj)
         if user_obj:
+            login(request, user_obj)
             return redirect('/home')
         else:
             context={'message':'用户名或者密码错误','loginform':loginform}
@@ -35,7 +36,11 @@ def signup(request):
         regform = forms.RegForm(request.POST)
         error_all_ = ''
         if regform.is_valid():
-            regform.save()
+            data = regform.cleaned_data
+            username = data.get('username')
+            password = data.get('password')
+            email = data.get('email')
+            User.objects.create_user(username=username,password=password,email=email)
             return redirect('/login/')
         else:
             if regform.errors.get('__all__'):
@@ -52,7 +57,6 @@ def changepwd(request):
         pwd_form = forms.PWDForm()
         return render(request,'changepwd.html',{'pwd_form':pwd_form})
     elif request.method == 'POST':
-
         pwd_form = forms.PWDForm(request.POST)
         if pwd_form.is_valid():
             new_password = request.POST.get('password')
