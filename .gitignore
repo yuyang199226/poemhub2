@@ -98,8 +98,8 @@ venv.bak/
 .idea/dataSources.local.xml
 .idea/vcs.xml
 
-*.pyc
-poem/_pycache_/
-poemhub/_pycache_/
+./*.pyc
+./_pycache_/
+./_pycache_/
 .idea/
 
