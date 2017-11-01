@@ -24,4 +24,5 @@ urlpatterns = [
     url(r'^logout/', views.log_out),
     url(r'^changepwd',views.changepwd)
 
+
 ]

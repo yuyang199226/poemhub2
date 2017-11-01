@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="a97bce33-f953-4c77-bf50-fa0f2451a461" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/9d8b691d-c012-418e-bd81-bb4e796ab495.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/9d8b691d-c012-418e-bd81-bb4e796ab495.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/poemhub.iml" afterPath="$PROJECT_DIR$/.idea/poemhub.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poem/forms.py" afterPath="$PROJECT_DIR$/poem/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poem/views.py" afterPath="$PROJECT_DIR$/poem/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poemhub/__init__.py" afterPath="$PROJECT_DIR$/poemhub/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poemhub/settings.py" afterPath="$PROJECT_DIR$/poemhub/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poemhub/urls.py" afterPath="$PROJECT_DIR$/poemhub/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base1.html" afterPath="$PROJECT_DIR$/templates/base1.html" />
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
+    </list>
+=======
+    <list default="true" id="a97bce33-f953-4c77-bf50-fa0f2451a461" name="Default" comment="" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+=======
     <list default="true" id="a97bce33-f953-4c77-bf50-fa0f2451a461" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poem/views.py" afterPath="$PROJECT_DIR$/poem/views.py" />
     </list>
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +69,39 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poemhub/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5214">
+              <caret line="158" column="1" lean-forward="false" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poem/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+              <folding>
+                <element signature="e#27#55#0" expanded="true" />
+                <element signature="e#132#777#0" expanded="false" />
+                <element signature="e#1049#1319#0" expanded="false" />
+                <element signature="e#1351#1537#0" expanded="false" />
+                <element signature="e#2166#2438#0" expanded="false" />
+                <element signature="e#2477#2763#0" expanded="false" />
+                <element signature="e#2804#3148#0" expanded="false" />
+                <element signature="e#3184#3548#0" expanded="false" />
+              </folding>
+=======
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poem/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,6 +118,7 @@
             <state relative-caret-position="283">
               <caret line="445" column="21" lean-forward="true" selection-start-line="445" selection-start-column="21" selection-end-line="445" selection-end-column="21" />
               <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
             </state>
           </provider>
         </entry>
@@ -70,8 +126,22 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poem/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="660">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="16" />
+=======
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+=======
             <state relative-caret-position="336">
+<<<<<<< HEAD
               <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+=======
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -102,9 +172,22 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="957">
+              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+=======
+            <state relative-caret-position="216">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="288">
               <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
             </state>
           </provider>
         </entry>
@@ -112,13 +195,64 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/poem/forms.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="24">
               <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <folding />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="1683">
+              <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#82#0" expanded="true" />
+                <element signature="e#401#914#0" expanded="false" />
+=======
+            <state relative-caret-position="192">
+              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#227#922#0" expanded="false" />
+                <element signature="e#955#2134#0" expanded="false" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+              </folding>
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="reg.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/reg.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-811">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -144,6 +278,17 @@
         <option value="$PROJECT_DIR$/poem/models.py" />
         <option value="$PROJECT_DIR$/poemhub/settings.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/poem/models.py" />
+        <option value="$PROJECT_DIR$/poemhub/__init__.py" />
+        <option value="$PROJECT_DIR$/poemhub/settings.py" />
+        <option value="$PROJECT_DIR$/poemhub/urls.py" />
+        <option value="$PROJECT_DIR$/poem/forms.py" />
+        <option value="$PROJECT_DIR$/poem/views.py" />
+        <option value="$PROJECT_DIR$/templates/reg.html" />
+        <option value="$PROJECT_DIR$/templates/base1.html" />
+=======
         <option value="$PROJECT_DIR$/templates/base2.html" />
         <option value="$PROJECT_DIR$/poemhub/urls.py" />
         <option value="$PROJECT_DIR$/templates/base1.html" />
@@ -151,6 +296,7 @@
         <option value="$PROJECT_DIR$/templates/changepwd.html" />
         <option value="$PROJECT_DIR$/poem/forms.py" />
         <option value="$PROJECT_DIR$/poem/views.py" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
       </list>
     </option>
   </component>
@@ -161,10 +307,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="20" />
+    <option name="y" value="51" />
+    <option name="width" value="1934" />
+    <option name="height" value="1042" />
+=======
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="754" />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -184,25 +337,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -212,11 +372,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -274,11 +434,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -288,39 +448,28 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
+              <option name="myItemId" value="poemhub2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="poem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poemhub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
       <pane id="Scope" />
     </panes>
   </component>
@@ -329,6 +478,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -533,7 +683,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="poemhub.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\sunny\AppData\Local\Programs\Python\Python36\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -571,7 +721,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <frame x="20" y="51" width="1934" height="1042" extended-state="1" />
+=======
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16106291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19360086" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24228029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5410628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+=======
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="1" />
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20789075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -581,6 +755,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5410628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55716586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -592,6 +767,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@poemhub" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26603326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -627,11 +803,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/poem/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="66" lean-forward="false" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poemhub/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+    <entry file="file://$PROJECT_DIR$/poem/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
     <entry file="file://$PROJECT_DIR$/poem/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+<<<<<<< HEAD
+            <element signature="e#0#82#0" expanded="true" />
+            <element signature="e#401#914#0" expanded="false" />
+=======
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#227#922#0" expanded="false" />
+            <element signature="e#955#2134#0" expanded="false" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+          </folding>
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
         </state>
       </provider>
     </entry>
@@ -655,7 +878,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="63" column="66" lean-forward="false" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+<<<<<<< HEAD
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+            <element signature="e#132#777#0" expanded="false" />
+            <element signature="e#1049#1319#0" expanded="false" />
+            <element signature="e#1351#1537#0" expanded="false" />
+            <element signature="e#2166#2438#0" expanded="false" />
+            <element signature="e#2477#2763#0" expanded="false" />
+            <element signature="e#2804#3148#0" expanded="false" />
+            <element signature="e#3184#3548#0" expanded="false" />
+          </folding>
+=======
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
         </state>
       </provider>
     </entry>
@@ -710,7 +946,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="63" column="66" lean-forward="false" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+<<<<<<< HEAD
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+            <element signature="e#132#777#0" expanded="false" />
+            <element signature="e#1049#1319#0" expanded="false" />
+            <element signature="e#1351#1537#0" expanded="false" />
+            <element signature="e#2166#2438#0" expanded="false" />
+            <element signature="e#2477#2763#0" expanded="false" />
+            <element signature="e#2804#3148#0" expanded="false" />
+            <element signature="e#3184#3548#0" expanded="false" />
+          </folding>
+=======
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
         </state>
       </provider>
     </entry>
@@ -773,7 +1022,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+<<<<<<< HEAD
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+            <element signature="e#132#777#0" expanded="false" />
+            <element signature="e#1049#1319#0" expanded="false" />
+            <element signature="e#1351#1537#0" expanded="false" />
+            <element signature="e#2166#2438#0" expanded="false" />
+            <element signature="e#2477#2763#0" expanded="false" />
+            <element signature="e#2804#3148#0" expanded="false" />
+            <element signature="e#3184#3548#0" expanded="false" />
+          </folding>
+=======
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
         </state>
       </provider>
     </entry>
@@ -797,25 +1059,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+<<<<<<< HEAD
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+            <element signature="e#132#777#0" expanded="false" />
+            <element signature="e#1049#1319#0" expanded="false" />
+            <element signature="e#1351#1537#0" expanded="false" />
+            <element signature="e#2166#2438#0" expanded="false" />
+            <element signature="e#2477#2763#0" expanded="false" />
+            <element signature="e#2804#3148#0" expanded="false" />
+            <element signature="e#3184#3548#0" expanded="false" />
+          </folding>
+=======
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="1059" column="8" lean-forward="false" selection-start-line="1059" selection-start-column="8" selection-end-line="1059" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9d8b691d-c012-418e-bd81-bb4e796ab495/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python36/Lib/site-packages/django/db/models/fields/__init__.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9d8b691d-c012-418e-bd81-bb4e796ab495/console.sql" />
     <entry file="file://$PROJECT_DIR$/static/plugins/bootstrap/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -834,9 +1096,14 @@
     <entry file="file://$PROJECT_DIR$/poem/static/css/form-control.css" />
     <entry file="file://$PROJECT_DIR$/poem/apps.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="336">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
         </state>
       </provider>
     </entry>
@@ -862,6 +1129,48 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="dbDummy://dbtable:/fd7372d8/9d8b691d-c012-418e-bd81-bb4e796ab495/poem.auth_user" />
+    <entry file="file://$PROJECT_DIR$/poemhub/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4bc57dcf-057c-408d-9b5c-74f1bd88d6d7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poem/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2970">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9dfa552e-e06d-4ae7-822b-5cd9437bd2d1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/729c6959-3a52-449a-bba2-9ede188e3393/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/259b6a42/9d8b691d-c012-418e-bd81-bb4e796ab495/poem.poem_author">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -927,6 +1236,45 @@
         <state relative-caret-position="432">
           <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="94" column="27" lean-forward="true" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poemhub/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5214">
+          <caret line="158" column="1" lean-forward="false" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="615" column="0" lean-forward="false" selection-start-line="615" selection-start-column="0" selection-end-line="615" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="354" column="23" lean-forward="false" selection-start-line="354" selection-start-column="23" selection-end-line="354" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -945,14 +1293,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/poem/forms.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="24">
           <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+=======
+        <state relative-caret-position="858">
+          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <element signature="e#27#55#0" expanded="true" />
+            <element signature="e#132#777#0" expanded="false" />
+            <element signature="e#1049#1319#0" expanded="false" />
+            <element signature="e#1351#1537#0" expanded="false" />
+            <element signature="e#2166#2438#0" expanded="false" />
+            <element signature="e#2477#2763#0" expanded="false" />
+            <element signature="e#2804#3148#0" expanded="false" />
+            <element signature="e#3184#3548#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poemhub/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/poem/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
           <folding />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/poem/models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="48">
           <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
@@ -960,18 +1340,105 @@
       </provider>
     </entry>
     <entry file="file://D:/Python36/Lib/site-packages/django/utils/crypto.py">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="1683">
+          <caret line="64" column="22" lean-forward="false" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+            <element signature="e#401#914#0" expanded="false" />
+=======
+        <state relative-caret-position="-877">
+          <caret line="387" column="8" lean-forward="false" selection-start-line="387" selection-start-column="8" selection-end-line="387" selection-end-column="8" />
+          <folding>
+            <element signature="e#22#61#0" expanded="true" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/poem/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/changepwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding>
+            <element signature="e#492#510#0#HTML" expanded="true" />
+            <element signature="e#682#700#0#HTML" expanded="true" />
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
         </state>
       </provider>
     </entry>
     <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/base_user.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="246">
           <caret line="137" column="22" lean-forward="false" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="1188">
+          <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/259b6a42/9d8b691d-c012-418e-bd81-bb4e796ab495/poem.auth_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+=======
+        <state relative-caret-position="192">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#227#922#0" expanded="false" />
+            <element signature="e#955#2134#0" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="432">
+          <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
+          <folding />
+>>>>>>> 7bc86d62b67016af2b32360531b34a758f9d2f6b
         </state>
       </provider>
     </entry>
@@ -1000,6 +1467,7 @@
     </entry>
     <entry file="file://D:/Python36/Lib/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="355">
           <caret line="184" column="26" lean-forward="true" selection-start-line="184" selection-start-column="26" selection-end-line="184" selection-end-column="26" />
           <folding />
@@ -1019,6 +1487,16 @@
         <state relative-caret-position="283">
           <caret line="445" column="21" lean-forward="true" selection-start-line="445" selection-start-column="21" selection-end-line="445" selection-end-column="21" />
           <folding />
+=======
+        <state relative-caret-position="192">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#227#922#0" expanded="false" />
+            <element signature="e#955#2134#0" expanded="false" />
+          </folding>
+>>>>>>> aa1dd618f42b936ecf4c9a75c74ed2feed93ef8c
+>>>>>>> b6371c921402996b9181710e26095645c324bf27
         </state>
       </provider>
     </entry>
