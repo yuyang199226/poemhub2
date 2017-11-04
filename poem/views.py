@@ -3,6 +3,7 @@ from django.contrib.auth import authenticate,login,logout
 from . import forms
 from django.contrib.auth.models import User
 import copy
+from .models import Profile
 
 
 
@@ -26,8 +27,6 @@ def log_in(request):
         else:
             context={'message':'用户名或者密码错误','loginform':loginform}
             return render(request,'login.html',context)
-
-
 
 def signup(request):
     '''注册'''
@@ -75,6 +74,15 @@ def changepwd(request):
 
 def home(request):
     return render(request,'home.html')
+
+def person_profile(request):
+    user = request.user.__str__()
+    print(user)
+    user_obj = Profile.objects.filter(user__username=user).first()
+    print(user_obj)
+    return render(request,'person_profile.html',{'user_obj':user_obj})
+
+
 
 
 

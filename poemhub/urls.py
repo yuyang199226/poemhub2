@@ -22,7 +22,8 @@ urlpatterns = [
     url(r'^login/', views.log_in),
     url(r'^signup/', views.signup),
     url(r'^logout/', views.log_out),
-    url(r'^changepwd',views.changepwd)
+    url(r'^changepwd',views.changepwd),
+    url(r'^person_profile',views.person_profile),
 
 
 ]
