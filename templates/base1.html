@@ -3,17 +3,22 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8">
+    <title>Poem</title>
+
     <link rel="stylesheet" href={% static "/plugins/bootstrap/css/bootstrap.min.css" %}>
     <link rel="stylesheet" href={% static "/plugins/bootstrap/css/bootstrap-theme.css" %}>
     <script src={% static "/js/jquery-1.12.4.js" %}></script>
     <script src={% static "/plugins/bootstrap/js/bootstrap.js" %}></script>
-    <title>Poem</title>
+     {% block importcssjs %}
     <style>
         .error{
             color: red;
         }
     </style>
+
       {% block css %}
+      {% endblock %}
+
       {% endblock %}
 
   </head>

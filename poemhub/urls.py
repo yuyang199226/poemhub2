@@ -13,11 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url,include
 from django.contrib import admin
 from poem import views
 from django.views.static import serve
 from poemhub import settings
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^home/', views.home),
@@ -29,6 +30,7 @@ urlpatterns = [
     url(r'^modify_profile',views.modify_profile),
     url(r'^ajax_get_user_info',views.ajax_get_user_info),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    url(r'^api/', include('api.urls'))
 
 
 ]

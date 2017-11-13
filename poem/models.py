@@ -8,22 +8,24 @@ class Poem(models.Model):
     title = models.CharField(max_length=32,verbose_name='题目')
     content = models.TextField(verbose_name='内容')
     publish_date = models.DateField(verbose_name='发表日期',blank=True,null=True)
-    appreciation = models.CharField(verbose_name='赏析',max_length=256)
+    appreciation = models.TextField(verbose_name='赏析',blank=True,null=True)
     translation = models.TextField(verbose_name='翻译',blank=True,null=True)
     up_count = models.IntegerField(verbose_name='点赞数',default=0)
     comment_count = models.IntegerField(verbose_name='评论数',default=0)
     author_name = models.CharField(verbose_name='作者名字',max_length=32)
+    category = models.ForeignKey(to='Category',verbose_name='分类',blank=True,null=True,related_name='poems')
 
     author = models.ForeignKey(to='Author')
-
+    class Meta:
+        unique_together=('title','author_name')
     def __str__(self):
         return self.title
 
 class Author(models.Model):
     '''诗人表'''
-    name = models.CharField(max_length=64)
-    profile = models.TextField(verbose_name='个人简介')
-    quotation = models.TextField(verbose_name='典故')
+    name = models.CharField(max_length=64,unique=True)
+    profile = models.TextField(verbose_name='个人简介',blank=True,null=True)
+    quotation = models.TextField(verbose_name='典故',blank=True,null=True)
     def __str__(self):
         return self.name
 
@@ -34,6 +36,8 @@ class Rhesis(models.Model):
     author_name = models.CharField(max_length=32,verbose_name='作者名')
 
     poem = models.ForeignKey(to='Poem',verbose_name='出自古诗')
+    class Meta:
+        unique_together = ('poem_title', 'content')
 
 class Tags(models.Model):
     '''古诗的标签'''
@@ -92,8 +96,6 @@ class Category(models.Model):
         (0,'楚辞'),
     ]
     title = models.IntegerField(verbose_name='分类名',choices=CATEGORY_CHOICES)
-
-    poems = models.ManyToManyField(to='Poem',verbose_name='诗',related_name='categoties')
     def __str__(self):
         return self.title
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="poem@localhost" uuid="9d8b691d-c012-418e-bd81-bb4e796ab495">
-      <database-info product="MySQL" version="5.7.19" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+      <database-info product="MySQL" version="5.7.18" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
@@ -11,6 +11,7 @@
       <introspection-schemas>*:poem</introspection-schemas>
     </data-source>
     <data-source name="@localhost" uuid="729c6959-3a52-449a-bba2-9ede188e3393">
+<<<<<<< HEAD
       <database-info product="MySQL" version="5.7.19" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -18,6 +19,16 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <user-name>root</user-name>
       <introspection-schemas>*:book_manage</introspection-schemas>
+=======
+      <database-info product="MySQL" version="5.7.18" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:blogpark</introspection-schemas>
+>>>>>>> c4003e5239d700154e2e45d1cd706fd5900a4270
     </data-source>
   </component>
 </project>

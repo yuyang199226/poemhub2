@@ -1,8 +1,52 @@
 {% extends 'base1.html' %}
 
-
+{% block importcssjs %}
+    {{ block.super }}
+    <style>
+    .per-poem{
+        margin: 10px 5px;
+        padding: 3px;
+        background-color: #8a6d3b;
+        color: #0f0f0f;
+    }
+    .poem-title,.poem-author{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 3px;
+        color: black;
+    }
+    .poem-title{
+         font-weight: bolder;
+        font-size: larger;
+    }
+    .poem-body{
+        border-bottom: 1px solid darkgray;
+{#        margin-top: 10px;#}
+{#        margin-bottom: 10px;#}
+        padding: 3px;
+    }
+    .poem-foot{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    </style>
+{% endblock %}
 {% block left_content %}
-    zuobian
+    {% for poem in poems %}
+    <div class="row per-poem">
+            <div class="poem-title">
+             {{ poem.title }}
+            </div>
+            <div class="poem-author">
+                {{ poem.author_name }}
+            </div>
+
+
+        <div class="poem-body">{{ poem.content }}</div>
+
+        <div class="poem-foot">喜欢 赞 评论 </div>
+    </div>
+    {% endfor %}
 {% endblock %}
 
 {% block right_content %}
