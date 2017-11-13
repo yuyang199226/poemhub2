@@ -1,0 +1,72 @@
+{% extends 'base1.html' %}
+{% load static %}
+{% block css %}
+    <link href="{% static 'css/modify_profile.css' %}" rel="stylesheet">
+{% endblock %}
+
+
+{% block body %}
+
+<div class="container profile_container">
+    <div class="row modify-title">
+        <h2 class="col-sm-offset-4">修改个人信息</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 ">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="form-group row">
+
+                    <label for="username" class="col-sm-2" >昵称</label>
+
+                    <input type="text" name="user" class="col-sm-6" >
+                </div>
+
+                <div class="form-group avatar row">
+                     <label for="avatar" class="col-sm-3">头像</label>
+                    {% if obj.avator %}
+                       <img src="{{ obj.avator.url }}" class="avatar_img ">
+                    {% else %}
+                        <img src="{% static  'avator/default.jpg' %}" class="avatar_img">
+                    {% endif %}
+                     <input type="file" class="avatar_input" id="avatar" name="avatar">
+                </div>
+
+                <div class="form-group row">
+                    <label for="re_password" class="col-sm-2">性别</label>
+                    <select name="gender" id="gender" class="col-sm-6">
+                        <option value="0" id="0">男</option>
+                        <option value="1" id="1">女</option>
+                    </select>
+                </div>
+
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2">邮箱</label>
+                     <input type="email" name="email" class="col-sm-6">
+                </div>
+                
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2">个人简介</label>
+                    <textarea name="person_bio" id="" cols="30" rows="10" class="col-sm-6"></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" class="btn btn-default profile-button col-sm-offset-2" value="提交">
+                </div>
+            </form>
+        </div>
+
+</div>
+</div>
+
+{% endblock %}
+
+{% block js %}
+<script src="{% static 'js/modify_profile.js' %}"></script>
+    <script>
+        $(function () {
+        $.initdata()
+})
+    </script>
+
+{% endblock %}

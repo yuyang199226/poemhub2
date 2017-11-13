@@ -13,6 +13,9 @@
             color: red;
         }
     </style>
+      {% block css %}
+      {% endblock %}
+
   </head>
   <body>
   <nav class="navbar navbar-default">
@@ -43,7 +46,7 @@
                   <li><a href="/signup/" class="">SignUp</a></li>
                   <li><a href="/login/">Login</a></li>
                       {% else %}
-                  <li><a href="/person_profile/" class="">Profile</a></li>
+                  <li><a href="/user_profile/" class="">Profile</a></li>
                   <li><a href="/logout/">Logout</a></li>
                     {% endif %}
               </ul>

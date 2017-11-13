@@ -2,8 +2,11 @@ from django.shortcuts import render,redirect,HttpResponse
 from django.contrib.auth import authenticate,login,logout
 from . import forms
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 import copy
 from .models import Profile
+import json
+
 
 
 
@@ -41,7 +44,8 @@ def signup(request):
             username = data.get('username')
             password = data.get('password')
             email = data.get('email')
-            User.objects.create_user(username=username,password=password,email=email)
+            user_obj=User.objects.create_user(username=username,password=password,email=email)
+            Profile.objects.create(user=user_obj,nickname=user_obj.username)
             return redirect('/login/')
         else:
             if regform.errors.get('__all__'):
@@ -51,6 +55,8 @@ def signup(request):
 def log_out(request):
     '''注销'''
     logout(request)
+
+
     return redirect('/home/')
 
 def changepwd(request):
@@ -75,14 +81,62 @@ def changepwd(request):
 def home(request):
     return render(request,'home.html')
 
-def person_profile(request):
+@login_required
+def user_profile(request):
+    '''查看个人档案'''
     user = request.user.__str__()
-    print(user)
-    user_obj = Profile.objects.filter(user__username=user).first()
-    print(user_obj)
-    return render(request,'person_profile.html',{'user_obj':user_obj})
+    profile_obj = Profile.objects.filter(user__username=user).first()
 
 
+    return render(request, 'user_profile.html', {'obj':profile_obj})
 
+@login_required
+def modify_profile(request):
+    '''修改个人档案'''
+    user = request.user.__str__()
+    profile_obj = Profile.objects.filter(user__username=user).first()
+
+    if request.method == 'POST':
+
+        file_obj = request.FILES.get('avatar')
+        nickname = request.POST.get('user')
+        gender = request.POST.get('gender')
+        person_bio = request.POST.get('person_bio')
+        email = request.POST.get('email')
+
+        if file_obj and file_obj != profile_obj.avator:
+            profile_obj.avator = file_obj
+        if nickname and nickname != profile_obj.nickname:
+            profile_obj.nickname = nickname
+        if gender and gender != profile_obj.gender:
+            profile_obj.gender = gender
+        if person_bio and person_bio != profile_obj.bio:
+            profile_obj.bio = person_bio
+
+        profile_obj.save()
+
+        if email and email != profile_obj.user.email:
+            User.objects.filter(username=user).update(email=email)
+        return redirect('/home/')
+
+    return render(request,'modify_profile.html',{'obj':profile_obj})
+
+@login_required
+def ajax_get_user_info(request):
+    '''
+    修改个人信息时获取修改信息的初始值
+    :param request:
+    :return:
+    '''
+    if request.method == 'GET':
+        user = request.user.__str__()
+        profile_obj = Profile.objects.filter(user__username=user).values('nickname','user__email','bio','gender')
+        data = list(profile_obj)
+
+        return HttpResponse(json.dumps(data))
+
+
+    else:
+        return HttpResponse('404，您要的网页已走丢。。。请重试')
 
 

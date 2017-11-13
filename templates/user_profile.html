@@ -1,0 +1,139 @@
+{% extends 'base1.html' %}
+{% load static %}
+
+{% block css %}
+    <style>
+    .user-container{
+        margin:40px
+    }
+    .base-info{
+        margin-top:10px;
+
+    }
+    .right-area{
+        margin-left: 20px;
+    }
+    .user-bio{
+        border-bottom: solid lightgrey 1px;
+        margin-bottom:5px;
+    }
+    .user-resume{
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .avatar{
+        height:120px;
+        width: 120px;
+    }
+    </style>
+{% endblock %}
+
+
+{% block body %}
+    <!-- 个人信息开始  !-->
+    <div class="user-container">
+        <div class="row">
+
+            <!-- 基础信息开始  !-->
+            <div class="col-sm-2" >
+
+                {% if obj.avator %}
+                    <img src=" {{ obj.avator.url }} " alt="" class="avatar">
+                {% else %}
+                    <img src=" {% static 'avator/default.jpg' %}" alt="" class="avatar">
+                {% endif %}
+
+            <h3>{{ obj.nickname }}</h3>
+            <div class="row base-info">
+                <span class="">性别：</span>
+                <span>
+                      {% if obj.gender == '0' %}
+                        <span>男</span>
+                      {% else %}
+
+                        <span>女</span>
+                      {% endif %}
+                </span>
+            </div>
+            <div class="row base-info">
+                 <span>等级：{{ obj.rank }}</span>
+            </div>
+            <div class="row base-info">
+                <span>邮箱：</span>
+                <span>{{ obj.user.email }}</span>
+
+            </div>
+            <div class="row base-info">
+
+                <a href="/modify_profile/" class="btn btn-primary">修改个人信息</a>
+            </div>
+
+        </div>
+             <!-- 基础信息结束  !-->
+
+            <!-- 个人简介开始  !-->
+            <div class="col-sm-6">
+                <div class="row user-bio">
+                    <h4>个人简介：</h4>
+                    <div class="user-resume">
+                        {% if obj.bio %}
+                            {{ obj.bio }}
+                        {% else %}
+                            <span class="row">哇哦，你还没有个人信息，赶快添加吧</span>
+                            <span class="row ol-sm-offset-1">
+                                <a href="/modify_profile/" class="btn btn-success">添加个人信息</a>
+                            </span>
+                        {% endif %}
+                     </div>
+
+                </div>
+
+                <br>
+                <div class="row love-poem">
+                    <h4>喜欢的诗歌：</h4>
+                    <ul>
+                    {% for poem in obj.love_poem.all %}
+                        <li>{{ poem }}</li>
+                    {% endfor %}
+                    </ul>
+
+
+                </div>
+            </div>
+            <!-- 个人简介结束  !-->
+
+
+            <!-- 右侧预留开始  !-->
+            <div class="col-sm-3 right-area" >
+                <div class="row">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">推荐诗歌</h3>
+                      </div>
+                      <div class="panel-body">
+                        Panel content
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 右侧预留结束 !-->
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+    <!-- 个人信息结束  !-->
+
+
+
+
+{% endblock %}

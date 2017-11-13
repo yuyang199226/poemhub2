@@ -2,6 +2,7 @@ import re
 from django import forms
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
+from poem.models import Profile
 
 # from django.utils.translation import ugettext_lazy as _
 
@@ -115,6 +116,7 @@ class PWDForm(forms.Form):
             return self.cleaned_data
         else:
             raise ValidationError('两次密码不一致')
+
 
 
 

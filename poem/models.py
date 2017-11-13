@@ -50,9 +50,9 @@ class Profile(models.Model):
     user = models.OneToOneField(User,on_delete=models.CASCADE)
     nickname = models.CharField(verbose_name='昵称',max_length=32)
     love_poem = models.ManyToManyField(to='Poem',through='PoemUser')
-    avator = models.ImageField(verbose_name='头像',upload_to='avators/',blank=True,null=True)
-    gender = models.BooleanField(verbose_name='性别')
-    bio = models.CharField(verbose_name='个人简介',max_length=64)
+    avator = models.ImageField(verbose_name='头像',upload_to='./avatar/',blank=True,null=True)
+    gender = models.BooleanField(verbose_name='性别',default=0)
+    bio = models.CharField(verbose_name='个人简介',max_length=64,null=True,blank=True)
     rank = models.IntegerField(verbose_name='等级',default=1)
 
     def __str__(self):
