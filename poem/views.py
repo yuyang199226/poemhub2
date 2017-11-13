@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect,HttpResponse
 from django.contrib.auth import authenticate,login,logout
 from . import forms
 from django.contrib.auth.models import User
+from poem import models as poem_models
 import copy
 
 
@@ -74,7 +75,12 @@ def changepwd(request):
                           {'pwd_form':pwd_form,'error_all':pwd_form.errors['__all__'][0]})
 
 def home(request):
-    return render(request,'home.html')
+    poems = poem_models.Poem.objects.all()
+    context = {'poems':poems}
+
+
+
+    return render(request,'home.html',context)
 
 
 

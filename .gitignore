@@ -99,7 +99,7 @@ venv.bak/
 .idea/vcs.xml
 
 *.pyc
-**/_pycache_/
+
 
 .idea/
 
